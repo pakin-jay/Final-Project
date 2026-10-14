@@ -1,0 +1,120 @@
+package com.example.courtsmash.data.local
+
+import com.example.courtsmash.domain.model.Court
+
+object CourtSeedData {
+    val sampleCourts = listOf(
+        Court(
+            id = "court_001",
+            name = "Sapsiree Badminton Academy",
+            address = "The O2 Bangkok, 50 Soi Charan Sanit Wong 84, Bang O, Bang Phlat, Bangkok 10700",
+            description = "A world-class badminton academy founded by elite international players. Features Olympic-standard courts, professional coaching, premium Yonex flooring, climate control, and luxury athlete amenities.",
+            pricePerHour = 400,
+            openingTime = "08:00",
+            closingTime = "22:00",
+            facilities = listOf("Air Conditioning", "Yonex Flooring", "Showers & Lockers", "Pro Shop", "Free Parking", "Café Lounge"),
+            imageUrl = "android.resource://com.example.courtsmash/drawable/b6",
+            rating = 4.9,
+            reviewCount = 29,
+            latitude = 13.7932,
+            longitude = 100.5085,
+            isPopular = true
+        ),
+        Court(
+            id = "court_002",
+            name = "Silver Star Badminton",
+            address = "229/2 Soi Prachachuen 37, Yaek 7-1-4, Wong Sawang, Bang Sue, Bangkok 10800",
+            description = "Popular community badminton club featuring well-maintained indoor courts with non-slip flooring, excellent LED illumination, shower facilities, and equipment rental services.",
+            pricePerHour = 180,
+            openingTime = "08:00",
+            closingTime = "23:00",
+            facilities = listOf("PBSI Certified", "Showers", "Free Parking", "Equipment Rental", "Racket Stringing"),
+            imageUrl = "android.resource://com.example.courtsmash/drawable/b5",
+            rating = 4.6,
+            reviewCount = 136,
+            latitude = 13.8322,
+            longitude = 100.5401,
+            isPopular = false
+        ),
+        Court(
+            id = "court_003",
+            name = "71 Sport Club",
+            address = "1035/12 Soi Pridi Banomyong 41, Sukhumvit 71 Road, Khlong Tan Nuea, Watthana, Bangkok 10110",
+            description = "Premier multi-sport club in Sukhumvit offering spacious indoor badminton courts, air conditioning, modern changing rooms, and convenient access in prime central Bangkok.",
+            pricePerHour = 280,
+            openingTime = "07:00",
+            closingTime = "23:00",
+            facilities = listOf("Air Conditioning", "Indoor Courts", "Showers & Lockers", "Parking", "Snack Bar"),
+            imageUrl = "android.resource://com.example.courtsmash/drawable/b4",
+            rating = 4.4,
+            reviewCount = 618,
+            latitude = 13.7389,
+            longitude = 100.5982,
+            isPopular = true
+        ),
+        Court(
+            id = "court_004",
+            name = "SAND HAUS Badminton Club",
+            address = "516 Pracha Uthit Road, Wang Thonglang, Bangkok 10310",
+            description = "Modern stylish badminton complex with professional shock-absorbing courts, anti-glare high-bay lighting, air conditioning, and a high-end spectator café area.",
+            pricePerHour = 290,
+            openingTime = "08:00",
+            closingTime = "22:00",
+            facilities = listOf("Air Conditioning", "Anti-glare Lighting", "Locker Room", "Pro Shop", "Café Lounge"),
+            imageUrl = "android.resource://com.example.courtsmash/drawable/b3",
+            rating = 4.8,
+            reviewCount = 472,
+            latitude = 13.7745,
+            longitude = 100.6012,
+            isPopular = true
+        ),
+        Court(
+            id = "court_005",
+            name = "R58 Badminton",
+            address = "134 Ramkhamhaeng Road, Hua Mak, Bang Kapi, Bangkok 10240",
+            description = "Affordable and highly accessible badminton venue in Ramkhamhaeng. Great for friendly matches, practice sessions, and social group games.",
+            pricePerHour = 160,
+            openingTime = "08:00",
+            closingTime = "23:00",
+            facilities = listOf("Wooden Sub-floor", "Equipment Rental", "Free Parking", "Showers"),
+            imageUrl = "android.resource://com.example.courtsmash/drawable/b2",
+            rating = 4.7,
+            reviewCount = 97,
+            latitude = 13.7589,
+            longitude = 100.6385,
+            isPopular = false
+        ),
+        Court(
+            id = "court_006",
+            name = "Eight Badminton",
+            address = "122 Krungthep Kreetha Road, Hua Mak, Bang Kapi, Bangkok 10240",
+            description = "Clean, well-ventilated badminton club located on Krungthep Kreetha Road. Features standard green mat courts, ample parking, and welcoming staff.",
+            pricePerHour = 180,
+            openingTime = "08:00",
+            closingTime = "22:00",
+            facilities = listOf("Standard Mat Courts", "Showers", "Ample Parking", "Equipment Rental"),
+            imageUrl = "android.resource://com.example.courtsmash/drawable/b1",
+            rating = 4.4,
+            reviewCount = 80,
+            latitude = 13.7492,
+            longitude = 100.6510,
+            isPopular = false
+        ),
+        Court(
+            id = "court_007",
+            name = "Winner Badminton Court",
+            address = "39/1–4 Pracharat Bamphen 24 Road, Samsen Nok, Huai Khwang, Bangkok 10310, Thailand",
+            description = "Well-equipped indoor badminton court complex in Huai Khwang featuring non-slip mat flooring, excellent lighting, shower rooms, ample parking, and refreshments.",
+            pricePerHour = 220,
+            openingTime = "08:00",
+            closingTime = "23:00",
+            facilities = listOf("Standard Mat Courts", "Showers", "Free Parking", "Equipment Rental", "Snack Bar"),
+            imageUrl = "android.resource://com.example.courtsmash/drawable/b8",
+            rating = 4.3,
+            reviewCount = 456,
+            latitude = 13.7820,
+            longitude = 100.5890,
+            isPopular = false
+        )
+    )
+}
